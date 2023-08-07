@@ -280,7 +280,7 @@ namespace System.Net
                 WriteChunkStart(size);
             }
 
-            m_Stream.Write(buffer, 0, size);
+            m_Stream.Write(buffer, offset, size);
 
             if (m_enableChunkedEncoding)
             {
@@ -290,7 +290,7 @@ namespace System.Net
 
         public override int Read(SpanByte buffer)
         {
-            throw new NotImplementedException();
+            throw new NotSupportedException();
         }
     }
 }

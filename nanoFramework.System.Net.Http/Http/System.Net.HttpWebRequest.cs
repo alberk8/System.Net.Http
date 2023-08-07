@@ -404,7 +404,7 @@ namespace System.Net
         /// times out.  The default value is 300,000 milliseconds (5 minutes).
         /// </value>
         /// <remarks>This property is used to control the timeout when calling
-        /// <see cref="Stream.Read"/> and <see cref="Stream.Write"/>.
+        /// <see cref="Stream.Read(byte[], int, int)"/> and <see cref="Stream.Write"/>.
         /// This property affects <itemref>Stream</itemref>s returned from
         /// GetResponse().<see cref="WebResponse.GetResponseStream"/>()
         /// and
@@ -1240,14 +1240,16 @@ namespace System.Net
                 // Otherwise: we send "Connection:Close" or "Connection:Keep-Alive"
                 if (m_httpRequestHeaders[HttpKnownHeaderNames.Connection] == null)
                 {
-                    string connectionValue;
+                    string connectionValue;                    
                     if (m_keepAlive)
                     {
-                        connectionValue = "Keep-Alive";
+                        // According to RFC, should be lower case
+                        connectionValue = "keep-alive";
                     }
                     else
                     {
-                        connectionValue = "Close";
+                        // According to RFC, should be lower case
+                        connectionValue = "close";
                     }
 
                     m_httpRequestHeaders.ChangeInternal(HttpKnownHeaderNames.Connection, connectionValue);

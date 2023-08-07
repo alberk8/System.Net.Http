@@ -2,7 +2,260 @@
 
 ## [**Changes available only in 'Preview' NuGet packages:**](https://github.com/nanoframework/System.Net.Http/tree/HEAD)
 
-[Full Changelog](https://github.com/nanoframework/System.Net.Http/compare/v1.5.8...HEAD)
+[Full Changelog](https://github.com/nanoframework/System.Net.Http/compare/v1.5.95...HEAD)
+
+**Implemented enhancements:**
+
+-  Allow to specify the local endpoint for HttpListener [\#398](https://github.com/nanoframework/System.Net.Http/pull/398)
+
+## [v1.5.95](https://github.com/nanoframework/System.Net.Http/tree/v1.5.95) (2023-07-27)
+
+[Full Changelog](https://github.com/nanoframework/System.Net.Http/compare/v1.5.84...v1.5.95)
+
+**Fixed bugs:**
+
+- Adjusting to connection close as default for HttpClient [\#396](https://github.com/nanoframework/System.Net.Http/pull/396)
+
+**Documentation and other chores:**
+
+- Update 1 NuGet dependencies [\#394](https://github.com/nanoframework/System.Net.Http/pull/394)
+- Update 1 NuGet dependencies [\#393](https://github.com/nanoframework/System.Net.Http/pull/393)
+- Update 1 NuGet dependencies [\#392](https://github.com/nanoframework/System.Net.Http/pull/392)
+- Update 2 NuGet dependencies [\#391](https://github.com/nanoframework/System.Net.Http/pull/391)
+- Update 1 NuGet dependencies [\#390](https://github.com/nanoframework/System.Net.Http/pull/390)
+- Update 1 NuGet dependencies [\#389](https://github.com/nanoframework/System.Net.Http/pull/389)
+- Update 1 NuGet dependencies [\#388](https://github.com/nanoframework/System.Net.Http/pull/388)
+- Update 1 NuGet dependencies [\#387](https://github.com/nanoframework/System.Net.Http/pull/387)
+
+## [v1.5.84](https://github.com/nanoframework/System.Net.Http/tree/v1.5.84) (2023-02-17)
+
+[Full Changelog](https://github.com/nanoframework/System.Net.Http/compare/v1.5.82...v1.5.84)
+
+**Fixed bugs:**
+
+- Fixing infinite loop when using file stream as source [\#386](https://github.com/nanoframework/System.Net.Http/pull/386)
+
+## [v1.5.82](https://github.com/nanoframework/System.Net.Http/tree/v1.5.82) (2023-01-24)
+
+[Full Changelog](https://github.com/nanoframework/System.Net.Http/compare/v1.5.78...v1.5.82)
+
+**Fixed bugs:**
+
+- Fixing OutputNetworkStreamWrapper [\#385](https://github.com/nanoframework/System.Net.Http/pull/385)
+
+**Documentation and other chores:**
+
+- Improve Intellisense comments for HttpClient [\#384](https://github.com/nanoframework/System.Net.Http/pull/384)
+- Update 1 NuGet dependencies [\#383](https://github.com/nanoframework/System.Net.Http/pull/383)
+
+## [v1.5.78](https://github.com/nanoframework/System.Net.Http/tree/v1.5.78) (2022-12-28)
+
+[Full Changelog](https://github.com/nanoframework/System.Net.Http/compare/v1.5.75...v1.5.78)
+
+**Documentation and other chores:**
+
+- Update 1 NuGet dependencies [\#382](https://github.com/nanoframework/System.Net.Http/pull/382)
+
+## [v1.5.75](https://github.com/nanoframework/System.Net.Http/tree/v1.5.75) (2022-12-28)
+
+[Full Changelog](https://github.com/nanoframework/System.Net.Http/compare/v1.5.73...v1.5.75)
+
+**Documentation and other chores:**
+
+- Update 2 NuGet dependencies [\#381](https://github.com/nanoframework/System.Net.Http/pull/381)
+
+## [v1.5.73](https://github.com/nanoframework/System.Net.Http/tree/v1.5.73) (2022-12-28)
+
+[Full Changelog](https://github.com/nanoframework/System.Net.Http/compare/v1.5.70...v1.5.73)
+
+**Documentation and other chores:**
+
+- Update 1 NuGet dependencies [\#378](https://github.com/nanoframework/System.Net.Http/pull/378)
+
+## [v1.5.70](https://github.com/nanoframework/System.Net.Http/tree/v1.5.70) (2022-12-27)
+
+[Full Changelog](https://github.com/nanoframework/System.Net.Http/compare/v1.5.68...v1.5.70)
+
+**Documentation and other chores:**
+
+- Update 1 NuGet dependencies [\#377](https://github.com/nanoframework/System.Net.Http/pull/377)
+
+## [v1.5.68](https://github.com/nanoframework/System.Net.Http/tree/v1.5.68) (2022-12-22)
+
+[Full Changelog](https://github.com/nanoframework/System.Net.Http/compare/v1.5.61...v1.5.68)
+
+**Documentation and other chores:**
+
+- Update 5 NuGet dependencies [\#376](https://github.com/nanoframework/System.Net.Http/pull/376)
+- Update 1 NuGet dependencies [\#375](https://github.com/nanoframework/System.Net.Http/pull/375)
+- Update 1 NuGet dependencies [\#374](https://github.com/nanoframework/System.Net.Http/pull/374)
+- Update 1 NuGet dependencies [\#373](https://github.com/nanoframework/System.Net.Http/pull/373)
+- Update 1 NuGet dependencies [\#372](https://github.com/nanoframework/System.Net.Http/pull/372)
+
+## [v1.5.61](https://github.com/nanoframework/System.Net.Http/tree/v1.5.61) (2022-11-23)
+
+[Full Changelog](https://github.com/nanoframework/System.Net.Http/compare/v1.5.54...v1.5.61)
+
+**Implemented enhancements:**
+
+- Miscelaneous improvements [\#371](https://github.com/nanoframework/System.Net.Http/pull/371)
+- Work in HttpUtility class [\#370](https://github.com/nanoframework/System.Net.Http/pull/370)
+- Fix casing in Url encode [\#369](https://github.com/nanoframework/System.Net.Http/pull/369)
+
+**Fixed bugs:**
+
+- Fix URL encoding apostrophe [\#368](https://github.com/nanoframework/System.Net.Http/pull/368)
+
+**Documentation and other chores:**
+
+- Update 1 NuGet dependencies [\#367](https://github.com/nanoframework/System.Net.Http/pull/367)
+
+## [v1.5.54](https://github.com/nanoframework/System.Net.Http/tree/v1.5.54) (2022-10-26)
+
+[Full Changelog](https://github.com/nanoframework/System.Net.Http/compare/v1.5.52...v1.5.54)
+
+**Documentation and other chores:**
+
+- Update 2 NuGet dependencies [\#365](https://github.com/nanoframework/System.Net.Http/pull/365)
+
+## [v1.5.52](https://github.com/nanoframework/System.Net.Http/tree/v1.5.52) (2022-10-26)
+
+[Full Changelog](https://github.com/nanoframework/System.Net.Http/compare/v1.5.50...v1.5.52)
+
+**Documentation and other chores:**
+
+- Update 1 NuGet dependencies [\#364](https://github.com/nanoframework/System.Net.Http/pull/364)
+
+## [v1.5.50](https://github.com/nanoframework/System.Net.Http/tree/v1.5.50) (2022-10-26)
+
+[Full Changelog](https://github.com/nanoframework/System.Net.Http/compare/v1.5.48...v1.5.50)
+
+**Documentation and other chores:**
+
+- Update 1 NuGet dependencies [\#363](https://github.com/nanoframework/System.Net.Http/pull/363)
+
+## [v1.5.48](https://github.com/nanoframework/System.Net.Http/tree/v1.5.48) (2022-10-25)
+
+[Full Changelog](https://github.com/nanoframework/System.Net.Http/compare/v1.5.45...v1.5.48)
+
+**Documentation and other chores:**
+
+- Update 1 NuGet dependencies [\#362](https://github.com/nanoframework/System.Net.Http/pull/362)
+- Update 2 NuGet dependencies [\#361](https://github.com/nanoframework/System.Net.Http/pull/361)
+
+## [v1.5.45](https://github.com/nanoframework/System.Net.Http/tree/v1.5.45) (2022-10-25)
+
+[Full Changelog](https://github.com/nanoframework/System.Net.Http/compare/v1.5.43...v1.5.45)
+
+**Documentation and other chores:**
+
+- Update 2 NuGet dependencies [\#359](https://github.com/nanoframework/System.Net.Http/pull/359)
+
+## [v1.5.43](https://github.com/nanoframework/System.Net.Http/tree/v1.5.43) (2022-10-24)
+
+[Full Changelog](https://github.com/nanoframework/System.Net.Http/compare/v1.5.41...v1.5.43)
+
+**Documentation and other chores:**
+
+- Update 1 NuGet dependencies [\#358](https://github.com/nanoframework/System.Net.Http/pull/358)
+
+## [v1.5.41](https://github.com/nanoframework/System.Net.Http/tree/v1.5.41) (2022-10-24)
+
+[Full Changelog](https://github.com/nanoframework/System.Net.Http/compare/v1.5.39...v1.5.41)
+
+**Documentation and other chores:**
+
+- Update 1 NuGet dependencies [\#357](https://github.com/nanoframework/System.Net.Http/pull/357)
+
+## [v1.5.39](https://github.com/nanoframework/System.Net.Http/tree/v1.5.39) (2022-10-24)
+
+[Full Changelog](https://github.com/nanoframework/System.Net.Http/compare/v1.5.37...v1.5.39)
+
+**Documentation and other chores:**
+
+- Update 1 NuGet dependencies [\#356](https://github.com/nanoframework/System.Net.Http/pull/356)
+- Update 1 NuGet dependencies [\#355](https://github.com/nanoframework/System.Net.Http/pull/355)
+
+## [v1.5.37](https://github.com/nanoframework/System.Net.Http/tree/v1.5.37) (2022-10-23)
+
+[Full Changelog](https://github.com/nanoframework/System.Net.Http/compare/v1.5.35...v1.5.37)
+
+**Documentation and other chores:**
+
+- Update 1 NuGet dependencies [\#354](https://github.com/nanoframework/System.Net.Http/pull/354)
+
+## [v1.5.35](https://github.com/nanoframework/System.Net.Http/tree/v1.5.35) (2022-10-23)
+
+[Full Changelog](https://github.com/nanoframework/System.Net.Http/compare/v1.5.30...v1.5.35)
+
+**Documentation and other chores:**
+
+- Update 1 NuGet dependencies [\#353](https://github.com/nanoframework/System.Net.Http/pull/353)
+- Work CI-CD [\#351](https://github.com/nanoframework/System.Net.Http/pull/351)
+
+## [v1.5.30](https://github.com/nanoframework/System.Net.Http/tree/v1.5.30) (2022-10-10)
+
+[Full Changelog](https://github.com/nanoframework/System.Net.Http/compare/v1.5.27...v1.5.30)
+
+**Documentation and other chores:**
+
+- Update 1 NuGet dependencies [\#350](https://github.com/nanoframework/System.Net.Http/pull/350)
+
+## [v1.5.27](https://github.com/nanoframework/System.Net.Http/tree/v1.5.27) (2022-10-08)
+
+[Full Changelog](https://github.com/nanoframework/System.Net.Http/compare/v1.5.24...v1.5.27)
+
+**Documentation and other chores:**
+
+- Update 1 NuGet dependencies [\#348](https://github.com/nanoframework/System.Net.Http/pull/348)
+- Update 1 NuGet dependencies [\#347](https://github.com/nanoframework/System.Net.Http/pull/347)
+
+## [v1.5.24](https://github.com/nanoframework/System.Net.Http/tree/v1.5.24) (2022-09-22)
+
+[Full Changelog](https://github.com/nanoframework/System.Net.Http/compare/v1.5.22...v1.5.24)
+
+**Documentation and other chores:**
+
+- Update 1 NuGet dependencies [\#346](https://github.com/nanoframework/System.Net.Http/pull/346)
+
+## [v1.5.22](https://github.com/nanoframework/System.Net.Http/tree/v1.5.22) (2022-09-22)
+
+[Full Changelog](https://github.com/nanoframework/System.Net.Http/compare/v1.5.20...v1.5.22)
+
+**Documentation and other chores:**
+
+- Update 1 NuGet dependencies [\#345](https://github.com/nanoframework/System.Net.Http/pull/345)
+
+## [v1.5.20](https://github.com/nanoframework/System.Net.Http/tree/v1.5.20) (2022-09-15)
+
+[Full Changelog](https://github.com/nanoframework/System.Net.Http/compare/v1.5.18...v1.5.20)
+
+**Documentation and other chores:**
+
+- Update 2 NuGet dependencies [\#344](https://github.com/nanoframework/System.Net.Http/pull/344)
+
+## [v1.5.18](https://github.com/nanoframework/System.Net.Http/tree/v1.5.18) (2022-09-15)
+
+[Full Changelog](https://github.com/nanoframework/System.Net.Http/compare/v1.5.13...v1.5.18)
+
+**Documentation and other chores:**
+
+- Update 2 NuGet dependencies [\#343](https://github.com/nanoframework/System.Net.Http/pull/343)
+- Update 1 NuGet dependencies [\#342](https://github.com/nanoframework/System.Net.Http/pull/342)
+- Update 1 NuGet dependencies [\#341](https://github.com/nanoframework/System.Net.Http/pull/341)
+- Update 1 NuGet dependencies [\#340](https://github.com/nanoframework/System.Net.Http/pull/340)
+
+## [v1.5.13](https://github.com/nanoframework/System.Net.Http/tree/v1.5.13) (2022-08-05)
+
+[Full Changelog](https://github.com/nanoframework/System.Net.Http/compare/v1.5.10...v1.5.13)
+
+**Fixed bugs:**
+
+- Fix HttpClient.Post error on subsequent call [\#339](https://github.com/nanoframework/System.Net.Http/pull/339)
+
+## [v1.5.10](https://github.com/nanoframework/System.Net.Http/tree/v1.5.10) (2022-08-04)
+
+[Full Changelog](https://github.com/nanoframework/System.Net.Http/compare/v1.5.8...v1.5.10)
 
 **Documentation and other chores:**
 
